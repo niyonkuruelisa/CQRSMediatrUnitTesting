@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrUnitTesting", "MediatorUnitTesting\MediatrUnitTesting.csproj", "{9D8920A0-452E-40F1-A8A1-33ED0B0BA0DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrUnitTesting.Test", "MediatrUnitTesting.Test\MediatrUnitTesting.Test.csproj", "{6A95E349-1732-4B7C-A72C-C9CEAFA93D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D8920A0-452E-40F1-A8A1-33ED0B0BA0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8920A0-452E-40F1-A8A1-33ED0B0BA0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8920A0-452E-40F1-A8A1-33ED0B0BA0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8920A0-452E-40F1-A8A1-33ED0B0BA0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A95E349-1732-4B7C-A72C-C9CEAFA93D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A95E349-1732-4B7C-A72C-C9CEAFA93D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A95E349-1732-4B7C-A72C-C9CEAFA93D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A95E349-1732-4B7C-A72C-C9CEAFA93D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFBE7A37-C8A7-472D-92FE-5BC5D9231B19}
+	EndGlobalSection
+EndGlobal
