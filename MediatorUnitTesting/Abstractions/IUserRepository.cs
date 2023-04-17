@@ -8,5 +8,6 @@ namespace MediatrUnitTesting.Abstractions
         void UpdateAsync(User user);
         void DeleteAsync(User user);
         User GetUserById(Guid userId);
+        bool IsEmailUnique(string email);
     }
 }

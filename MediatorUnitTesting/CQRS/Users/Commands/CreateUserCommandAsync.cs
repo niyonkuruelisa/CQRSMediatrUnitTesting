@@ -19,10 +19,20 @@ namespace MediatrUnitTesting.CQRS.Users.Commands
 			}
             public async Task<Response> Handle(Command request, CancellationToken cancellationToken)
 			{
-				userRepository.Create(request.user);
-				await unityOfWork.SaveChangesAsync(cancellationToken);
+
+				if (userRepository.IsEmailUnique(request.user.Email))
+				{
+					userRepository.Create(request.user);
+					await unityOfWork.SaveChangesAsync(cancellationToken);
+
+					return new Response(request.user);
+				}
+				else
+				{
+
+					return new Response(null);
+				}
 				
-				return new Response(request.user);
 			}
 		}
 		public record Response(User user);
